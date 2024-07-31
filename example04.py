@@ -141,3 +141,61 @@ print('{state} is the most {adjective} state of the {country}'.format(state='Cal
 country='USA', adjective='crowded'))
 print('{0} is the most {adjective} state of the {country}'.format('California', country
 ='USA', adjective ='crowded'))
+print('Merhaba, ismin {},yasin {b} meslegin ise {c}'.format(name, b = age, c = meslek))
+print('Merhaba, ismin {}, yasin {b} meslegin ise {c}'.format(name, c = meslek, b = age))
+
+taban = 6
+yukseklik = 4
+print('burada hesaplama gosterecegim {}'.format(taban*yukseklik/2))
+
+print("{}-{}-{}".format("12", "Feb", "Feb"))
+print("{no}-{month}-{month}".format(no="12", month= "Feb"))
+
+print("{6} {5} {0} {1} {3} {4} {2}".format("a new", "job", "months", "in", 6, "have started", "I will"))
+
+name ='Ali'
+age = 43
+meslek = 'Content Creator'
+print(f'merhaba benim adim {name} yasim {age} meslegim {meslek}')
+
+print(f'merhaba benim adim {name} yasim {age} meslegim {meslek}')
+
+print('Merhaba, ismin {},yasin {b} meslegin ise {c}'.format(name, c = meslek, b = age))
+print(f'merhaba benim adim {name} yasim {age} meslegim {meslek}', 'Merhaba, ismin {},yasin {b} meslegin ise {c}'.format(name, b = age, c = meslek))
+
+fruit ='Orange'
+vegetable= 'Tomato'
+amount = 6
+output= f"The amount of {fruit} and {vegetable} we bought are totally {amount} pounds"
+print(output)
+
+sample = f"{2 ** 3}"
+print(sample)
+print(f'burada hespalama yapiyor {taban* yukseklik/2}')
+
+name='MARIAM'
+print (F'My name is {name.capitalize()}')
+print(f'saga hizalama {name: >20}')
+print(f'saga hizalama {name: <20}')
+print(f'saga hizalama {name:*^20}')
+
+
+name = "Joseph"
+job = "teachers"
+domain = "Data Science"
+message= f"Hi {name}. "\
+f"You are one of the {job}"\
+f"in the {domain} section."
+print(message)
+
+name ="Susan"
+age ="young"
+gender = 'lady'
+school ="CLRWY IT university"
+output = (
+f" {name} is a {age}"
+f" {gender} and she is a student"
+f" at the {school}."
+)
+print (output)
+
